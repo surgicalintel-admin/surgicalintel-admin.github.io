@@ -6,8 +6,7 @@ const  App = () => {
   return (
     <div style={{ position: "relative" }}>
       <Routes>
-        <Route path="/" element={<Navigate to="/healthcare" replace />} />
-        <Route path="healthcare" element={<Healthcare />} />
+        <Route path="/" element={<Healthcare />} />
       </Routes>
     </div>
   );
