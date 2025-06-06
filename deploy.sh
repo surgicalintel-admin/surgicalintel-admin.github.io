@@ -23,8 +23,8 @@ echo "Building React app..."
 pnpm build
 
 echo "Copying blog output into React app's build/blog..."
-mkdir -p $BUILD_DIR/blog
-cp -r $BLOG_DIR/build/* $BUILD_DIR/blog/
+mkdir -p $BUILD_DIR/
+cp -r $BLOG_DIR/build/* $BUILD_DIR/
 
 echo "Preparing deployment branch: $DEPLOY_BRANCH"
 
