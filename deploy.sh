@@ -20,9 +20,9 @@ pnpm build
 cd ..
 
 # Check if expected blog build output exists
-if [ ! -d "$BLOG_DIR/build/blog" ]; then
-  echo "ERROR: blog/build/blog directory not found!"
-  echo "Make sure Docusaurus config has: baseUrl: '/blog/', routeBasePath: '/'"
+if [ ! -d "$BLOG_DIR/build/index.html" ]; then
+  echo "ERROR: blog/build/index.html directory not found!"
+  echo "Check your Docusaurus build. Did it run successfully?"
   exit 1
 fi
 
@@ -31,7 +31,7 @@ pnpm build
 
 echo "Copying blog output into React app's build/blog..."
 mkdir -p $BUILD_DIR/blog
-cp -r $BLOG_DIR/build/blog/* $BUILD_DIR/blog/
+cp -r $BLOG_DIR/build/* $BUILD_DIR/
 
 echo "Preparing deployment branch: $DEPLOY_BRANCH"
 
