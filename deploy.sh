@@ -22,6 +22,10 @@ cd ..
 echo "Building React app..."
 pnpm build
 
+echo "Copying blog output into React app's build/blog..."
+mkdir -p $BUILD_DIR/blog
+cp -r $BLOG_DIR/build/blog/* $BUILD_DIR/blog/
+
 echo "Preparing deployment branch: $DEPLOY_BRANCH"
 
 # COPY build folder content to a temp location *before* switching branch
