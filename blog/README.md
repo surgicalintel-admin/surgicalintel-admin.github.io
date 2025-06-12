@@ -1,25 +1,27 @@
 # Website
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+### Install Dependencies
 
-## Installation
+To install project dependencies, run:
 
 ```bash
-pnpm
+pnpm install
 ```
 
-## Local Development
+### Start
+
+To run the app in development mode, use:
 
 ```bash
 pnpm start
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+Open http://localhost:3000/blog to view it in your browser.
 
-## Build
+### Build
+
+To create a production build, run:
 
 ```bash
 pnpm build
 ```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.

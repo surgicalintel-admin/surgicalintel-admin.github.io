@@ -1,5 +1,13 @@
 # surgical-intel
 
+### Install Dependencies
+
+To install project dependencies, run:
+
+```bash
+pnpm install
+```
+
 ### Start
 
 To run the app in development mode, use:
