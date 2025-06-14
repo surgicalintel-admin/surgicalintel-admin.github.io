@@ -17,7 +17,7 @@ Despite the use of templates, nearly half of physicians say surgical documentati
 
 Ambient AI has already transformed office-based clinical workflows, allowing providers to focus more on patients than on paperwork. That same innovation is now entering the operating room. By pairing structured surgical video capture with AI, it's now possible to generate highly accurate operative reports—no memory recall or manual note-taking required.
 
-At Theator, we’re at the forefront of this shift.
+We’re at the forefront of this shift at Surgical Intel
 
 ## Reducing Burnout, Boosting Accuracy—and Revenue
 
@@ -26,4 +26,3 @@ With just one click, an AI-generated operative report can be produced, capturing
 Automated, video-based reporting reduces administrative load, simplifies coding and billing, and enhances efficiency across the board. For surgeons, that means more time for patients and less time behind a screen. For healthcare systems, it means improved outcomes and increased revenue.
 
 A smarter surgical workflow is no longer a future concept—it’s here.
-
