@@ -1,19 +1,27 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
+surgery:
+  label: Surgery
+  description: All posts related to surgery.
 
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
+surgical-education:
+  label: Surgical Education
+  description: Insights and content on surgical education.
 
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
+healthcare-quality:
+  label: Healthcare Quality
+  description: Discussions and research on healthcare quality improvement.
 
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
+AI:
+  label: AI
+  description: Topics related to artificial intelligence in healthcare and beyond.
+
+automation:
+  label: Automation
+  description: The role and impact of automation in healthcare and surgery.
+
+burnout:
+  label: Burnout
+  description: Addressing burnout in medical and healthcare professions.
+
+healthcare:
+  label: Healthcare
+  description: General topics and insights related to the healthcare system.
