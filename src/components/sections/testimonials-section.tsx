@@ -5,18 +5,18 @@ import { motion } from "framer-motion";
 
 const testimonials = [
   {
-    name: "Dr. Emily Carter",
-    title: "Cardiologist, HeartCare Hospital",
+    name: "Dr. Arun Jebasingh",
+    title: "Surgical Oncologist & Laproscopic Surgeon, Dr. Kamakshi Memorial Hospitals",
     feedback: "An outstanding platform that enhances patient care efficiency...",
   },
   {
-    name: "Dr. James Anderson",
-    title: "Orthopedic Surgeon, City Health Clinic",
+    name: "Dr. Durai D",
+    title: "Orthopedic Surgeon, Corner Clinic",
     feedback: "A game-changer for managing surgeries and patient workflows...",
   },
   {
-    name: "Dr. Olivia Martinez",
-    title: "Neurosurgeon, Advanced Brain Institute",
+    name: "Dr. Nagarajan P",
+    title: "Renal Transplant Surgeon, Manipal Hospitals",
     feedback: "Incredibly useful for surgical planning and team coordination...",
   },
 ];
