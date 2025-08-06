@@ -18,26 +18,26 @@ const ContactSection = () => {
     {
       icon: <Email className="w-5 h-5 text-primary" />,
       title: "Email",
-      content: "info@surgicalintel.ai",
+      content: "admin@surgicalintel.ai",
     },
     {
       icon: <LocationOn className="w-5 h-5 text-primary" />,
       title: "Office",
       content: (
         <>
-          123 Innovation Drive, Guindy
+          A-904, Prince Towers,
           <br />
-          Chennai, TN 600008
+          94 Purasawalkam High Road,
+          <br/>
+          Chennai - 600 010, India
         </>
       ),
     },
   ];
 
   const socialLinks = [
-    { icon: <Facebook className="w-5 h-5" />, href: "#" },
-    { icon: <Twitter className="w-5 h-5" />, href: "#" },
-    { icon: <Instagram className="w-5 h-5" />, href: "#" },
-    { icon: <LinkedIn className="w-5 h-5" />, href: "#" },
+    { icon: <Twitter className="w-5 h-5" />, href: "https://x.com/surgicalintelai" },
+    { icon: <LinkedIn className="w-5 h-5" />, href: "https://linkedin.com/company/surgical-intel" },
   ];
 
   const onSubmit = (data) => {
