@@ -54,11 +54,10 @@ cp -r $TEMP_BUILD_COPY/. .
 
 echo "Committing and pushing changes..."
 git add .
-git commit -m "Deploy latest React + Blog"
+git commit -m "publish to surgical intel website"
 git push origin $DEPLOY_BRANCH
 
 echo ""
 echo "Deployment complete!"
-echo "React App: https://surgicalintel.ai/"
-echo "Blog:      https://surgicalintel.ai/blog/"
-
+echo "App: https://surgicalintel.ai"
+echo "Blog: https://surgicalintel.ai/blog"
