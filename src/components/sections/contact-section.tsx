@@ -92,6 +92,8 @@ const ContactSection = () => {
                     <a
                       key={index}
                       href={social.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="w-10 h-10 rounded-full bg-neutral-100 flex items-center justify-center text-neutral-600 hover:bg-primary hover:text-white transition-colors duration-200"
                       aria-label={`Social media link ${index + 1}`}
                     >
