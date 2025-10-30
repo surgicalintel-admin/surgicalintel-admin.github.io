@@ -1,10 +1,34 @@
-
 import React from 'react';
 import { Phone, Email, LocationOn, Facebook, Twitter, Instagram, LinkedIn } from "@mui/icons-material";
-import { motion } from "framer-motion";
-import { slideInLeft, slideInRight } from "../../lib/animations";
+import { motion, easeOut } from "framer-motion";
 import { TextField, Button, Checkbox, FormControlLabel, Box, Typography } from "@mui/material";
 import { useForm } from "react-hook-form";
+
+const slideInLeft = {
+  hidden: {
+    opacity: 0,
+    x: -100,
+    transition: { ease: easeOut, duration: 0.6 },
+  },
+  visible: {
+    opacity: 1,
+    x: 0,
+    transition: { ease: easeOut, duration: 0.6 },
+  },
+};
+
+const slideInRight = {
+  hidden: {
+    opacity: 0,
+    x: 100,
+    transition: { ease: easeOut, duration: 0.6 },
+  },
+  visible: {
+    opacity: 1,
+    x: 0,
+    transition: { ease: easeOut, duration: 0.6 },
+  },
+};
 
 const ContactSection = () => {
   const { register, handleSubmit, formState: { errors } } = useForm();
@@ -28,7 +52,7 @@ const ContactSection = () => {
           A-904, Prince Towers,
           <br />
           94 Purasawalkam High Road,
-          <br/>
+          <br />
           Chennai - 600 010, India
         </>
       ),
@@ -49,7 +73,7 @@ const ContactSection = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col lg:flex-row">
-            <motion.div 
+            <motion.div
               className="w-full lg:w-1/2 mb-12 lg:mb-0 lg:pr-12"
               initial="hidden"
               whileInView="visible"
@@ -104,14 +128,14 @@ const ContactSection = () => {
               </div>
             </motion.div>
 
-            <motion.div 
+            <motion.div
               className="w-full lg:w-1/2"
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true, amount: 0.3 }}
               variants={slideInRight}
             >
-              <Box className="bg-white rounded-xl shadow-md shadow-gray-400 shadow-t-md drop-shadow-[0_-4px_6px_rgba(0,0,0,0.1)] p-8">
+              <Box className="bg-white rounded-xl shadow-md shadow-gray-400 drop-shadow-[0_-4px_6px_rgba(0,0,0,0.1)] p-8">
                 <Typography variant="h3" className="text-2xl font-bold text-neutral-800 mb-6">
                   Send Us a Message
                 </Typography>
@@ -163,4 +187,3 @@ const ContactSection = () => {
 };
 
 export default ContactSection;
-
