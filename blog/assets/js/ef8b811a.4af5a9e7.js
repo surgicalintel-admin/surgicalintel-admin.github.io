@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkblog=self.webpackChunkblog||[]).push([[947],{6600:l=>{l.exports=JSON.parse('{"authors":[{"name":"SurgicalIntel","title":"Author","url":"https://surgicalintel.ai","imageURL":"/blog/img/logo.png","key":"surgicalintel","page":null,"count":2}]}')}}]);
