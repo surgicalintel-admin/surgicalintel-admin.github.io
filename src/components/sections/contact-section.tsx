@@ -142,7 +142,7 @@ const ContactSection = () => {
                   />
                   <FormControlLabel
                     control={<Checkbox {...register("subscribe")} />}
-                    label="Subscribe to our newsletter for updates on new features and industry insights"
+                    label="Subscribe to our newsletter for updates on new features"
                   />
                   <Button
                     type="submit"
