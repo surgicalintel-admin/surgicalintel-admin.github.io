@@ -4,10 +4,10 @@ import { staggerContainer, fadeIn } from "../../lib/animations";
 
 const PrivacySection = () => {
   const features = [
-    { image: "/HiTrust.webp" },
+    { image: "/HITRUST.webp" },
     { image: "/AICPA-SOC.webp" },
     { image: "/GDPR.webp" },
-    { image: "/HIPAA-Compliant.webp" },
+    { image: "/HIPAA.webp" },
   ];
 
   return (
@@ -22,10 +22,10 @@ const PrivacySection = () => {
           variants={fadeIn}
         >
           <h3 className="text-3xl md:text-4xl font-bold text-neutral-800 mb-4">
-            Privacy & Security FTW
+            Privacy & Security
           </h3>
           <p className="text-lg text-neutral-600">
-            Theator is dedicated to maintaining the highest standards of
+            We are dedicated to maintaining the highest standards of
             security and compliance. Together with AWS, we ensure all patient,
             provider, and procedure data is properly managed and safeguarded at
             all times.
