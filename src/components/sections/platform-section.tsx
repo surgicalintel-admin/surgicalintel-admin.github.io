@@ -70,7 +70,7 @@ const PlatformSection = () => {
               surgical procedures, helping teams identify patterns and
               opportunities for improvement.
             </Typography>
-            <ul className="space-y-4">
+            <ul className="space-y-4 mt-6">
               {analyticsFeatures.map((feature, index) => (
                 <li key={index} className="flex items-start">
                   <Box className="flex-shrink-0">
@@ -121,7 +121,7 @@ const PlatformSection = () => {
               real-time, providing actionable insights and decision support to
               surgical teams.
             </Typography>
-            <ul className="space-y-4">
+            <ul className="space-y-4 mt-6">
               {aiFeatures.map((feature, index) => (
                 <li key={index} className="flex items-start">
                   <Box className="flex-shrink-0">
