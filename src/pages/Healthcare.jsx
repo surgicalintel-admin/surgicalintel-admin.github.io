@@ -1,6 +1,7 @@
 import HeroSection from "./../components/sections/hero-section";
 import FeaturesSection from "./../components/sections/features-section";
 import PlatformSection from "./../components/sections/platform-section";
+import PrivacySection from "./../components/sections/privacy-section";
 import TestimonialsSection from "./../components/sections/testimonials-section";
 import CtaSection from "./../components/sections/cta-section";
 import ContactSection from "./../components/sections/contact-section";
@@ -19,6 +20,7 @@ const Healthcare = () => {
       <HeroSection />
       <FeaturesSection />
       <PlatformSection />
+      <PrivacySection />
       <TestimonialsSection />
       <CtaSection />
       <ContactSection />
